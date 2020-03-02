@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="787" height="727" viewBox="0 0 787 727">
+  <defs>
+    <filter id="Rectangle_349" x="0" y="0" width="787" height="727" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4.5" result="blur"/>
+      <feFlood flood-opacity="0.122"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_1155" data-name="Group 1155" transform="translate(644.5 -757.5)">
+    <g id="Group_971" data-name="Group 971" transform="translate(-1047 -929.545)">
+      <g transform="matrix(1, 0, 0, 1, 402.5, 1687.05)" filter="url(#Rectangle_349)">
+        <rect id="Rectangle_349-2" data-name="Rectangle 349" width="760" height="700" rx="9" transform="translate(10.5 9.5)" fill="#fff"/>
+      </g>
+      <path id="Path_991" data-name="Path 991" d="M13226,5243v699.57" transform="translate(-12623 -3546)" fill="none" stroke="#dcdcdc" stroke-width="1" opacity="0.29"/>
+      <path id="Path_992" data-name="Path 992" d="M13226,5243v699.57" transform="translate(-12433 -3546)" fill="none" stroke="#dcdcdc" stroke-width="1" opacity="0.29"/>
+      <path id="Path_993" data-name="Path 993" d="M13226,5243v699.57" transform="translate(-12243 -3546)" fill="none" stroke="#dcdcdc" stroke-width="1" opacity="0.29"/>
+      <path id="Path_995" data-name="Path 995" d="M13226,5243v699.57" transform="translate(6379.154 -11369.099) rotate(90)" fill="none" stroke="#dcdcdc" stroke-width="1" opacity="0.29"/>
+      <path id="Path_996" data-name="Path 996" d="M13226,5243v699.57" transform="translate(6385.785 -11179.215) rotate(90)" fill="none" stroke="#dcdcdc" stroke-width="1" opacity="0.29"/>
+    </g>
+    <g id="Group_1106" data-name="Group 1106" transform="translate(-997 -585)" opacity="0.24">
+      <g id="Round" transform="translate(-66 -3)">
+        <circle id="Ellipse_50" data-name="Ellipse 50" cx="15" cy="15" r="15" transform="translate(809 1389)" fill="#87bee2"/>
+        <g id="Ellipse_51" data-name="Ellipse 51" transform="translate(812 1391)" fill="none" stroke="gray" stroke-width="1">
+          <circle cx="15" cy="15" r="15" stroke="none"/>
+          <circle cx="15" cy="15" r="14.5" fill="none"/>
+        </g>
+      </g>
+      <g id="Round-2" data-name="Round" transform="translate(201 307)">
+        <circle id="Ellipse_50-2" data-name="Ellipse 50" cx="15" cy="15" r="15" transform="translate(809 1389)" fill="#f5de0e"/>
+        <g id="Ellipse_51-2" data-name="Ellipse 51" transform="translate(812 1391)" fill="none" stroke="gray" stroke-width="1">
+          <circle cx="15" cy="15" r="15" stroke="none"/>
+          <circle cx="15" cy="15" r="14.5" fill="none"/>
+        </g>
+      </g>
+      <g id="Round-3" data-name="Round" transform="translate(-173 596)">
+        <circle id="Ellipse_50-3" data-name="Ellipse 50" cx="15" cy="15" r="15" transform="translate(809 1389)" fill="#e95656"/>
+        <g id="Ellipse_51-3" data-name="Ellipse 51" transform="translate(812 1391)" fill="none" stroke="gray" stroke-width="1">
+          <circle cx="15" cy="15" r="15" stroke="none"/>
+          <circle cx="15" cy="15" r="14.5" fill="none"/>
+        </g>
+      </g>
+      <g id="Group_1099" data-name="Group 1099">
+        <path id="Polygon_5" data-name="Polygon 5" d="M12.5,0,25,25H0Z" transform="translate(981 1456)" fill="#e95656"/>
+        <g id="Polygon_6" data-name="Polygon 6" transform="translate(985 1458)" fill="none">
+          <path d="M12.5,0,25,25H0Z" stroke="none"/>
+          <path d="M 12.5 2.23607063293457 L 1.618034362792969 24 L 23.38196563720703 24 L 12.5 2.23607063293457 M 12.5 0 L 25 25 L 0 25 L 12.5 0 Z" stroke="none" fill="gray"/>
+        </g>
+      </g>
+      <g id="Group_1100" data-name="Group 1100" transform="translate(-569 139)">
+        <path id="Polygon_5-2" data-name="Polygon 5" d="M12.5,0,25,25H0Z" transform="translate(981 1456)" fill="#f5de0e"/>
+        <g id="Polygon_6-2" data-name="Polygon 6" transform="translate(985 1458)" fill="none">
+          <path d="M12.5,0,25,25H0Z" stroke="none"/>
+          <path d="M 12.5 2.23607063293457 L 1.618034362792969 24 L 23.38196563720703 24 L 12.5 2.23607063293457 M 12.5 0 L 25 25 L 0 25 L 12.5 0 Z" stroke="none" fill="gray"/>
+        </g>
+      </g>
+      <g id="Group_1101" data-name="Group 1101" transform="translate(-117 444)">
+        <path id="Polygon_5-3" data-name="Polygon 5" d="M12.5,0,25,25H0Z" transform="translate(981 1456)" fill="#65dc8d"/>
+        <g id="Polygon_6-3" data-name="Polygon 6" transform="translate(985 1458)" fill="none">
+          <path d="M12.5,0,25,25H0Z" stroke="none"/>
+          <path d="M 12.5 2.23607063293457 L 1.618034362792969 24 L 23.38196563720703 24 L 12.5 2.23607063293457 M 12.5 0 L 25 25 L 0 25 L 12.5 0 Z" stroke="none" fill="gray"/>
+        </g>
+      </g>
+      <g id="Group_1102" data-name="Group 1102">
+        <rect id="Rectangle_357" data-name="Rectangle 357" width="25" height="25" transform="translate(951 1598)" fill="#87bee2"/>
+        <g id="Rectangle_358" data-name="Rectangle 358" transform="translate(953 1600)" fill="none" stroke="#707070" stroke-width="1">
+          <rect width="25" height="25" stroke="none"/>
+          <rect x="0.5" y="0.5" width="24" height="24" fill="none"/>
+        </g>
+      </g>
+      <g id="Group_1105" data-name="Group 1105" transform="translate(62 401)">
+        <rect id="Rectangle_357-2" data-name="Rectangle 357" width="25" height="25" transform="translate(951 1598)" fill="#f5de0e"/>
+        <g id="Rectangle_358-2" data-name="Rectangle 358" transform="translate(953 1600)" fill="none" stroke="#707070" stroke-width="1">
+          <rect width="25" height="25" stroke="none"/>
+          <rect x="0.5" y="0.5" width="24" height="24" fill="none"/>
+        </g>
+      </g>
+      <g id="Group_1104" data-name="Group 1104" transform="translate(-518 387)">
+        <rect id="Rectangle_357-3" data-name="Rectangle 357" width="25" height="25" transform="translate(951 1598)" fill="#65dc8d"/>
+        <g id="Rectangle_358-3" data-name="Rectangle 358" transform="translate(953 1600)" fill="none" stroke="#707070" stroke-width="1">
+          <rect width="25" height="25" stroke="none"/>
+          <rect x="0.5" y="0.5" width="24" height="24" fill="none"/>
+        </g>
+      </g>
+      <g id="Group_1103" data-name="Group 1103" transform="translate(-518 -207)">
+        <rect id="Rectangle_357-4" data-name="Rectangle 357" width="25" height="25" transform="translate(951 1598)" fill="#e95656"/>
+        <g id="Rectangle_358-4" data-name="Rectangle 358" transform="translate(953 1600)" fill="none" stroke="#707070" stroke-width="1">
+          <rect width="25" height="25" stroke="none"/>
+          <rect x="0.5" y="0.5" width="24" height="24" fill="none"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

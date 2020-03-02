@@ -1,0 +1,221 @@
+@font-face {
+    font-family: 'MyWebFont';
+    src: url('webfont.eot');
+    src: url('fonts/abovedemoregular-ljmd-webfont.woff') format('woff'),
+     url('fonts/AboveDemoRegular-lJMd.ttf') format('truetype');
+}
+@font-face {
+    font-family: "MyRegularWebFont";
+    src: url('fonts/gisha.woff') format('woff'),
+      url('fonts/gisha.ttf') format('truetype');
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+}
+.box {
+  /* border: black 1px solid; */
+}
+.box1 {
+  position: relative;
+}
+.box4 {
+  position: relative;
+}
+
+.actwaveTopLogo {
+  font-family: 'MyRegularWebFont', sans-serif;
+  color: #042337;
+  margin: 0;
+  font-size: 24px;
+}
+
+.pageOne {
+  background-image: url('img/cloudbg.png');
+  background-size: cover;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
+}
+.pageOneArticle {
+  font-family: 'MyRegularWebFont', sans-serif;
+  color: #464040;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  height: 2fr;
+  width: 50%;
+}
+.articleBox {
+  position: absolute;
+  align-items: center;
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+  padding-left: 10%;
+}
+.articleBox h1 {
+  font-family: 'MyWebFont', sans-serif;
+  font-weight: lighter;
+  font-size: 35px;
+  color: #042337;
+}
+.lighterImageBox {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+}
+.lighterImg {
+  height: 80%;
+}
+@media (max-width: 1100px){
+
+
+  .articleBox {
+    padding-left: 5%;
+  }
+  .pageOneArticle {
+    width: 90%;
+  }
+}
+@media (max-width: 768px) {
+  .articleBox h1 {
+    font-size: 22px;
+  }
+  .pageOneArticle {
+    font-size: 14px;
+  }
+}
+@media (max-width: 500px){
+  .pageOne {
+    height: 150vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr 1fr;
+  }
+  .articleBox h1 {
+    font-size: 35px;
+  }
+  .pageOneArticle {
+    font-size: 16px;
+  }
+  .pageonetableimg {
+    right: 50%;
+    height: 100%;
+  }
+  .lighterImageBox {
+    visibility: hidden;
+  }
+  .pageonetableimg {
+    height: auto;
+  }
+
+}
+
+
+.pageonetableimg {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  max-width: 100%;
+}
+
+
+.pageTwo {
+  background-color: #F7F7F9;
+  height: 160vh;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+}
+.RegistrationBox {
+  position: relative;
+  height: 100vh;
+  z-index: 1;
+  display: flex;
+  justify-content: right;
+  align-items: right;
+}
+.registrationContainer {
+  position: absolute;
+  width: 90%;
+  height: 90%;
+  background: url('img/registrationbg.svg');
+  background-size: cover;
+}
+.registrationContent {
+  padding-top: 10%;
+  padding-left: 15%;
+  height: auto;
+}
+.registrationContent h1 {
+  font-family: 'MyWebFont', sans-serif;
+  font-weight: lighter;
+  color: #042337;
+}
+.registrationContent p {
+  font-family: 'MyRegularWebFont', sans-serif;
+  font-weight: lighter;
+  width: 70%;
+  color: #042337;
+}
+.registrationContent input {
+  border:2px solid #ccc;
+  box-shadow: none;
+  width: 50%;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  padding: 0.5em;
+  margin-top: 3%;
+  color: #000;
+}
+.regButton {
+  margin-top: 4%;
+  font-size: 18px;
+  font-family: 'MyRegularWebFont', sans-serif;
+  font-size: 15px;
+  font-weight: lighter;
+  border: 0;
+  background-color: #01BFDE;
+  color: #fff;
+  border-radius: 5px;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+.regButton:hover {
+  background-color: rgb(0, 0, 139);
+}
+.pageTwoImageBox {
+  position: relative;
+}
+.roundbg {
+  max-width: 180%;
+  width: 180%;
+  right: -25%;
+  position: absolute;
+  top: 7%;
+}
+.pageTwoTableImage {
+  max-width: 100%;
+  width: 100%;
+  left: -20%;
+  z-index: 1;
+  position: absolute;
+  top: 35%;
+}
+@media (max-width:1100px) {
+  .pageTwo {
+    grid-template-columns: 1fr;
+  }
+  .pageTwoImageBox {
+    visibility: hidden;
+  }
+  .RegistrationBox {
+    justify-content: center;
+    align-items: center;
+  }
+}
