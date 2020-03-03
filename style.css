@@ -374,35 +374,40 @@ body {
   .pageTwo {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
-    height: 180vh;
+    height: 210vh;
   }
   .pageTwoImageBox {
     display: none;
     visibility: hidden;
   }
   .registrationContainer {
-    width: 80%;
+    width: 60%;
+
   }
 
   .RegistrationBox {
-    top: 20%;
+    top: 25%;
     max-width: 100%;
     justify-content: center;
     align-items: center;
-    height: 80%;
+    height: 60%;
   }
   .registrationContent {
+    padding-top: 5%;
     justify-content: center;
     align-items: center;
     height: auto;
   }
+  .registrationContainer h1 {
+    font-size: 25px;
+  }
   .registrationContent p {
     width: 90%;
+    font-size: 13px;
   }
   .registrationContent input {
     width: 80%;
   }
-
   .pageThree {
     height: 150vh;
   }
