@@ -91,6 +91,7 @@ body {
     font-size: 14px;
   }
 }
+
 @media (max-width: 500px){
   .pageOne {
     height: 150vh;
@@ -222,6 +223,7 @@ body {
   .registrationContent input {
     width: 80%;
   }
+
 }
 .pageThree {
   /* background: url('img/pagethreebg.svg'); */
@@ -364,6 +366,11 @@ body {
   }
   .designedBy {
     text-align: center;
+  }
+}
+@media (min-height: 1000px) {
+  .registrationContainer {
+    height: 60%;
   }
 }
 
