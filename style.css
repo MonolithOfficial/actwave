@@ -73,8 +73,6 @@ body {
   height: 80%;
 }
 @media (max-width: 1100px){
-
-
   .articleBox {
     padding-left: 5%;
   }
@@ -112,18 +110,13 @@ body {
   .pageonetableimg {
     height: auto;
   }
-
 }
-
-
 .pageonetableimg {
   position: absolute;
   bottom: 0;
   right: 0;
   max-width: 100%;
 }
-
-
 .pageTwo {
   background-color: #F7F7F9;
   height: 160vh;
@@ -210,12 +203,163 @@ body {
 @media (max-width:1100px) {
   .pageTwo {
     grid-template-columns: 1fr;
+    height: 100vh;
   }
   .pageTwoImageBox {
+    display: none;
     visibility: hidden;
   }
   .RegistrationBox {
     justify-content: center;
     align-items: center;
+  }
+  .registrationContent p {
+    width: 90%;
+  }
+  .registrationContent input {
+    width: 80%;
+  }
+}
+.pageThree {
+  /* background: url('img/pagethreebg.svg'); */
+  background-color: #F7F7F9;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 3fr 5fr 2fr;
+}
+.pageThreeHeader {
+  display: inline-grid;
+  grid-template-columns: 2fr 7fr 1fr;
+  align-items: center;
+}
+
+.pageThreeHeader h2 {
+  font-family: 'MyWebFont', sans-serif;
+  font-weight: lighter;
+  font-size: 24px;
+  padding: 0;
+  margin-right: 0.5em;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 50%;
+}
+.pageThreeDivider {
+  height: auto;
+  max-width: 100%;
+}
+.arrows a {
+  font-size: 30px;
+  max-width: 100%;
+  height: auto;
+}
+.horizontalScrollMenu {
+  margin-left: 10%;
+  align-items: start;
+  display: flex;
+  height: auto;
+  z-index: 1;
+  background-color: #00000000;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  scroll-snap-type: x mandatory;
+}
+.horizontalScrollMenu div {
+  height: 200px;
+  padding: 0.2em;
+  margin-right: 1%;
+  border-radius: 3%;
+  background: url('img/memberbg.svg');
+  font-family: 'MyRegularWebFont';
+  display: inline-block;
+  text-align: center;
+  scroll-snap-align: start;
+  text-decoration: none;
+}
+.horizontalScrollMenu img {
+  display: block;
+}
+.horizontalScrollMenu h3 {
+  font-size: 14px;
+  padding-left: 1em;
+  margin: 0;
+  color: #6F6464;
+  font-weight: lighter;
+  text-align: left;
+}
+.horizontalScrollMenu p {
+  padding-left: 1em;
+  padding-bottom: 1em;
+  font-size: 12px;
+  margin: 0;
+  color: #6F6464;
+  font-weight: lighter;
+  text-align: left;
+}
+.footerContainer {
+  display: grid;
+  grid-template-columns: 1fr 9fr;
+}
+.footer {
+  padding: 30px;
+  display: inline-grid;
+  align-items: center;
+  jusify-items: center;
+  background-color: #FFFFFF;
+  border-top-left-radius: 10px;
+  grid-template-columns: 3fr 5fr 2fr;
+}
+
+.socialMediaLinks {
+  display: inline-grid;
+  justify-items: center;
+  grid-template-columns: repeat(5, 1fr);
+}
+.copyright {
+  display: flex;
+  justify-content: center;
+}
+.copyright p {
+  font-family: 'MyRegularWebFont', sans-serif;
+  color: #808080;
+  font-size: 14px;
+}
+.designedBy p {
+  font-family: 'MyRegularWebFont', sans-serif;
+  color: #808080;
+  font-size: 14px;
+}
+.designedBy span {
+  font-family: 'MyRegularWebFont', sans-serif;
+  color: #042337;
+  font-size: 16px;
+}
+
+@media (max-width:1100px) {
+  .footerContainer {
+    grid-template-columns: 1fr;
+  }
+  .footer {
+    border-top-right-radius: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .registrationContent h1 {
+    font-size: 30px;
+  }
+  .pageThreeHeader h2 {
+    margin-left: 5%;
+  }
+  .horizontalScrollMenu {
+    margin-left: 0;
+  }
+  .footer {
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+  }
+  .designedBy {
+    text-align: center;
   }
 }
