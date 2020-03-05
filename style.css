@@ -263,10 +263,8 @@ body {
   margin-left: 10%;
   align-items: start;
   display: flex;
-  height: auto;
   z-index: 1;
   background-color: #00000000;
-  overflow-x: hidden;
   overflow-y: hidden;
   -webkit-overflow-scrolling: touch;
   scroll-snap-type: x mandatory;
@@ -417,5 +415,17 @@ body {
   }
   .pageThree {
     height: 150vh;
+  }
+
+}
+@media (max-height: 340px) {
+  .pageTwo {
+    height: 250vh;
+  }
+  .registrationContainer {
+    top: 10%;
+  }
+  .RegistrationBox {
+    height: 70%;
   }
 }
