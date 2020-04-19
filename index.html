@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>Actwave Pre-registration</title>
   </head>
   <body>
@@ -27,19 +27,27 @@
     <div class="pageTwo">
       <div class="box RegistrationBox">
         <div class="registrationContainer">
-          <form class="registrationContent" action="index.html" method="post">
+          <form class="registrationContent" method="post">
             <h1>Pre Registration</h1>
             <p>Imagine was you removal raising gravity. Unsatiable understood or expression
                dissimilar so sufficient. Its party every heard and event gay. Advice he indeed things adieus</p>
-            <input type="text" placeholder="Name">
-            <br>
-            <input type="text" placeholder="Last name">
-            <br>
-            <input type="text" placeholder="E-mail">
-            <br>
-            <input type="text" placeholder="Phone number">
-            <br>
-            <button class="regButton">Pre-registration</button>
+            <div class="form-group">
+              <input type="text" placeholder="Name" class="form-control">
+            </div>
+            <div class="form-group">
+              <input type="text" placeholder="Last name" class="form-control">
+            </div>
+            <div class="form-group">
+              <input type="text" placeholder="Username" class="form-control">
+            </div>
+            <div class="form-group">
+              <input type="text" placeholder="E-mail" class="form-control">
+            </div>
+            <div class="form-group">
+              <input type="text" placeholder="Phone number" class="form-control">
+            </div>
+            
+            <button class="btn btn-primary">Pre-registration</button>
           </form>
         </div>
       </div>
@@ -48,6 +56,7 @@
         <img src="img/pagetwotableimg.svg" class="pageTwoTableImage">
       </div>
     </div>
+    
     <div class="pageThree">
       <div class="box pageThreeHeader">
         <h2 class="box">Our Team</h2>
@@ -57,7 +66,8 @@
           <a class="next">&#10095;</a>
         </div>
       </div>
-      <div class="box horizontalScrollMenu">
+
+      <div class="horizontalScrollMenu">
         <div class="mySlides" id="m1">
           <img src="img/memberphoto.svg" width="217px" height="155px">
           <h3>Lizi Blagidze</h3>
@@ -109,10 +119,10 @@
           <p>UI & UX Designer</p>
         </div>
       </div>
-      <div class="box footerContainer">
-        <div class="box whitespace">
 
-        </div>
+
+
+          
         <div class="box footer">
           <div class="box socialMediaLinks">
             <a href="#"><img src="img/twittericon.svg"></a>
@@ -130,5 +140,49 @@
         </div>
       </div>
     </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="js/jquery.visible.js"></script>
+
+
+    <script type="text/javascript">
+
+
+      $(document).ready(function() {
+        var initialMarginLeft = "0px"
+        var myMarginLeft = "0px"
+        var leftLimit = "700px"
+        var rightLimit = "-2000px"
+        $('.next').click(function() {
+            event.preventDefault();
+            myMarginLeft = $(".horizontalScrollMenu").css("marginLeft");
+            $(".prev").removeClass('limited');
+            $('.horizontalScrollMenu').animate({
+              marginLeft: "-=200px"
+            }, "fast");
+            if ($('#m10').visible(true)){
+              $(".next").addClass('limited');
+            }
+            
+         });
+         $('.prev').click(function() {
+            event.preventDefault();
+            myMarginLeft = $(".horizontalScrollMenu").css("marginLeft");
+            $(".next").removeClass('limited');
+            if ($('#m1').visible(true)){
+              $(".prev").addClass('limited');
+            }
+            $('.horizontalScrollMenu').animate({
+              marginLeft: "+=200px"
+            }, "fast");
+          });
+
+
+      })
+    
+    
+
+    
+      </script>
   </body>
 </html>
