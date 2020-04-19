@@ -290,6 +290,7 @@ body {
 .prev.limited {
   pointer-events: none;
 }
+
 .prev:hover {
   background-color: #000;
 }
@@ -519,9 +520,15 @@ body {
   }
 }
 
-@media (max-width: 768px){
+@media (max-width: 1000px){
   .horizontalScrollMenu {
     overflow-x: scroll;
+  }
+  .next {
+    display: none;
+  }
+  .prev {
+    display: none;
   }
 }
 
